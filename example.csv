@@ -1,0 +1,10 @@
+id,title,transaction_type,total_price,rooms_number,city,currency,street,estate_type,location_label,is_private_owner,agency,is_exclusive_offer,is_promoted,area_in_square_meters,rent_price,terrain_area_in_square_meters,price_per_square_meter,date_created_first
+63821913,2-pokojowe mieszkanie 41m2 + loggia Bezpośrednio,SELL,551496,TWO,Kraków,PLN,ul. Republiki Korczakowskiej,FLAT,"Kraków, Bieżanów-Prokocim, ul. Republiki Korczakowskiej",False,Start,False,False,41.78,,,13200,2023-01-05 11:22:01
+64500685,Promocja | 2 pokoje + balkon,SELL,565500,TWO,Kraków,PLN,,FLAT,"Kraków, Podgórze",False,Wschód nieruchomości,False,False,32.48,,,17411,2023-08-09 21:45:30
+64068415,Dwupoziomowy apartament z balkonem i ogródkiem,SELL,1395000,FOUR,Kraków,PLN,ul. Władysława Żeleńskiego,FLAT,"Kraków, Bronowice, Żeleńskiego",False,Wschód nieruchomości,False,False,127.99,,,10899,2023-03-23 21:35:19
+64484627,Komfortowa kawalerka na Cegielnianej,SELL,540000,ONE,Kraków,PLN,ul. Cegielniana,FLAT,"Kraków, Łagiewniki-Borek Fałęcki, ul. Cegielniana 6b",True,,False,False,29.11,360,,18550,2023-08-04 14:57:21
+62299967,3-pokojowe mieszkanie 57m2 + ogródek Bez Prowizji,SELL,700348,THREE,Kraków,PLN,ul. Ludwika Pasteura,FLAT,"Kraków, Prądnik Biały, ul. Ludwika Pasteura",False,Tętnowski Development,False,False,57.88,,,12100,2021-09-20 15:41:04
+64171718,1-pokojowy apartament 38m2 + balkon,SELL,675675,ONE,Kraków,PLN,ul. Grzegórzecka,FLAT,"Kraków, Grzegórzki, ul. Grzegórzecka",False,INTER-BUD Developer,False,False,38.61,,,17500,2023-04-26 13:34:49
+62292597,4-pokojowe mieszkanie 66m2 + taras Bez Prowizji,SELL,,FOUR,Kraków,,ul. Misjonarska,FLAT,"Kraków, Krowodrza, ul. Misjonarska",False,Tętnowski Development,False,False,66.34,,,,2021-09-17 17:11:38
+62292612,3-pokojowe mieszkanie 58m2 + balkon Bezpośrednio,SELL,,THREE,Kraków,,ul. Misjonarska,FLAT,"Kraków, Krowodrza, ul. Misjonarska",False,Tętnowski Development,False,False,58.44,,,,2021-09-17 17:11:47
+62292747,2-pokojowe mieszkanie 41m2 + loggia Bezpośrednio,SELL,,TWO,Kraków,,ul. Misjonarska,FLAT,"Kraków, Krowodrza, ul. Misjonarska",False,Tętnowski Development,False,False,41.7,,,,2021-09-17 17:12:46
