@@ -17,7 +17,7 @@ def write_flats_into(flats):
                         flat.transaction_type,
                         flat.total_price,
                         flat.rooms_number,
-                        flat.city,
+                        # flat.city,#BaseException: ./data/flats.csv, exception message: 'FlatInfo' object has no attribute 'city'
                         flat.currency,
                         flat.street,
                         flat.estate_type,
@@ -46,7 +46,7 @@ def flats_csv_header_line():
         'transaction_type',
         'total_price',
         'rooms_number',
-        'city',
+        # 'city',
         'currency',
         'street',
         'estate_type',

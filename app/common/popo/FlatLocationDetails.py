@@ -1,4 +1,4 @@
-class FlatDetails:
+class FlatLocationDetails:
 
     def __init__(self,
                  id,

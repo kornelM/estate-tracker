@@ -18,3 +18,12 @@ class GeoInfo:
         self.district = district
         self.postcode = postcode
         super().__init__()
+
+    def to_dict(self):
+        return {
+            'name': self.name,
+            'street': self.street,
+            'longitude': float(self.longitude),
+            'latitude': float(self.latitude),
+            'price': float(self.latitude) + 50.0
+        }

@@ -2,7 +2,7 @@ import unittest
 
 from parameterized.parameterized import parameterized
 
-from app.common.popo.FlatDetails import FlatDetails
+from app.common.popo.FlatLocationDetails import FlatLocationDetails
 from app.flats.service.FlatsService import get_street_name, get_flats_location_details
 from app.flats.popo.FlatInfo import FlatInfo
 
@@ -76,8 +76,8 @@ class Test(unittest.TestCase):
             flat_info_2
         ]
 
-        flat_details_1 = FlatDetails(1, 'Street', 'Kraków')
-        flat_details_2 = FlatDetails(2, 'Danielowa Street', 'Marianka')
+        flat_details_1 = FlatLocationDetails(1, 'Street', 'Kraków')
+        flat_details_2 = FlatLocationDetails(2, 'Danielowa Street', 'Marianka')
 
         expected = [
             flat_details_1,

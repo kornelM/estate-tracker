@@ -11,7 +11,8 @@ def prepare_street_name(flat):
         if STREET_SUFFIX in street:
             street_array = str(street).split(STREET_SUFFIX)
             street = street_array[1]
-
+    if street is None:
+        street = flat.city
     return str(street).strip()
 
 

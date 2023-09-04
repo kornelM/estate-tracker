@@ -46,16 +46,11 @@ class Test(TestCase):
             ('Should return l-l when given l-l', None, 'ul. Location Label', None, 'Location Label'),
             ('Should return l-l when given l-l and city', None, 'Cracow, ul.Location Label', None, 'Location Label'),
             ('Should return l-l when given l-l and city', None, 'Cracow, ul. Location Label', None, 'Location Label'),
-            ('Should return l-l when given l-l, district and city', None, 'Cracow, District Name, ul.Location Label',
-             None, 'Location Label'),
-            ('Should return l-l when given l-l, district and city', None, 'Cracow, District Name, ul. Location Label',
-             None, 'Location Label'),
-            ('Should return l-l when given l-l, district and city', None, 'Cracow, District Name, ul. Location Label',
-             None, 'Location Label'),
+            ('Should return l-l when given l-l, district and city', None, 'Cracow, District Name, ul.Location Label', None, 'Location Label'),
+            ('Should return l-l when given l-l, district and city', None, 'Cracow, District Name, ul. Location Label', None, 'Location Label'),
+            ('Should return l-l when given l-l, district and city', None, 'Cracow, District Name, ul. Location Label', None, 'Location Label'),
             ('Should return district when given district and city', None, 'Cracow, DistrictName', None, 'DistrictName'),
-            (
-                    'Should return district when given district and city', None, 'Cracow, District Name', None,
-                    'District Name')
+            ('Should return district when given district and city', None, 'Cracow, District Name', None, 'District Name')
         ]
     )
     def test_get_street_name_parameterized(self,
